@@ -2,108 +2,146 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>CV</title>
+	<title>CS</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,700,700i|Roboto:300i,400,400i,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/94d00b71aa.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<div class="header">
-		<div class="container">
+  <div id="obertka">
+	<div id="header">
+		<header>
+			<div class="wrapHaed">
 			<div class="header__box">
-				<div class="header__logo">
-					Dariga Tolebay
+				<div class="logo-element">
 				</div>
-				<div class="header__menu">
-					<a href="#" class="header__links">About Me</a>
-					<a href="#" class="header__links">Service</a>
-					<a href="#" class="header__links">Contact</a>
-				</div>
+		       <nav>
+				<ul class="header__menu">
+				    <li><a href="#aboutUs" class="header__links">About Us</a></li>
+					<li><a href="#cuisines" class="header__links">Cuisines</a></li>
+					<li><a href="#contacts" class="header__links">Contacts</a></li>
+				</ul>
+			  </nav>
 			</div>
+		    </div>
+		</header>
 			<div class="wrap">
-				
-				<h2 class="wrap__beforetitle">
-					Java Helper
-				</h2>
-				<h1 class="wrap__title">
-					Welcome To My Site
-				</h1>
-				<a href="#" class="wrap__btn">Learn more</a>
-
-				
+				<div>
+					<div class="text">
+				<h1>
+            		<div class="typee">
+		            <span class="typed-text"></span>
+		            <span class="cursor">&nbsp;</span>
+	                </div>
+            	</h1>
+            	    </div>
+            	</div>
 			</div>
-		</div>
-	</div><!-- header -->
+	</div>
+	<script src="type.js"></script>
+<!-- header -->
 
-	<section class="section">
+
+<!-- About Us -->
+<div id="aboutUs">
+	<div class="container">
+		<div class="left"><img src="img/about.jpg"></div>
+		<div class="right">
+			<h2>About Us</h2>
+			<p>Our team is the creators if the culinary site.Team consists of 3 members from CS-2115. EDA is an all-in-one cooking site for all interested people in quick recipes of different cultures.We create guides to make you feel comfortable knowing that you can go to a country and know exactly what their cuisines consists of.In addition to sharing our picks for the best food around the world,  this platform shares  tasty perspective on the world. Hope you will find the best recipes! </p>
+		</div>
+	</div>
+</div>
+ 
+ <!------------ Cuisines --------->
+ <div id="cuisines"> 
+ 	<div class="container">
+ 		<h1>Cuisines</h1>
+ 		<div class="area">
+ 			<div class="single-img">
+ 				<div class="front" style="background-image: url(img/japanese.jpg)">
+ 					<div class="inner">
+ 						<p>Japanese Cuisine</p>
+ 					</div>
+ 				</div>
+ 				<div class="back" style="background-image: url(img/japanese.jpg)"> 
+ 					<div class="inner">
+ 						<a class="newPage" href="index3.html">Japanese Cuisine</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="single-img">
+ 				<div class="front" style="background-image: url(img/indian.jpg)">
+ 					<div class="inner">
+ 						<p>Indian Cuisine</p>
+ 					</div>
+ 				</div>
+ 				<div class="back" style="background-image: url(img/indian.jpg)">
+ 					<div class="inner">
+ 						<a class="newPage" href="https://devel.kz/">Indian Cuisine</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="single-img">
+ 				<div class="front" style="background-image: url(img/korean.jpg)">
+ 					<div class="inner">
+ 						<p>Korean Cuisine</p>
+ 					</div>
+ 				</div>
+ 				<div class="back" style="background-image: url(img/korean.jpg)">
+ 					<div class="inner">
+ 						<a class="newPage" href="korean/korean.html">Korean Cuisine</a>
+ 					</div>
+ 				</div>
+ 			</div>
+
+ 		</div>
+ 	</div>
+<!----Contacts------------------->
+<div id="contacts">
+	<footer>
 		<div class="container">
-
-			<div class="section__header"><!-- section__header -->	
-				<h2 class="header__subtitle">What I do</h2>
-				<div class="header__text">
-					<p>
-						I can help with...
-					</p>
-				</div>
-			</div><!-- section__header -->
-
-
-			<div class="row">
-				<div class="row__item">
-					<div class="row__img">
-						<img src="img/about-img1.jpg" alt="">
-						<span class="row__text">
-							java
-						</span>
-					</div>
-				</div>
-				<div class="row__item">
-					<div class="row__img">
-						<img src="img/about-img2.jpg" alt="">
-						<span class="row__text">
-							c++
-						</span>
-					</div>
-				</div>
-				<div class="row__item">
-					<div class="row__img">
-						<img src="img/about-img3.jpg" alt="">
-						<span class="row__text">
-							calculus
-						</span>
-					</div>
-				</div>
+			<div class="foot">
+				<img src="img/logo.svg">
+				<div>© Cooking Site 2022</div>
 			</div>
-
-		</div>
-	</section> <!-- section__row -->
-
-	<div class="stats">
-		<div class="container">
-			<div class="stat">
-				<div class="stat__item">
-					<div class="stat__num">0</div>
-					<div class="stat__text">web design projects</div>
-				</div>
-				<div class="stat__item">
-					<div class="stat__num">10</div>
-					<div class="stat__text">happy clients</div>
-				</div>
-				<div class="stat__item">
-					<div class="stat__num">0</div>
-					<div class="stat__text">award winner</div>
-				</div>
-				<div class="stat__item">
-					<div class="stat__num">99+</div>
-					<div class="stat__text">cup of coffee</div>
-				</div>
-				<div class="stat__item">
-					<div class="stat__num">1</div>
-					<div class="stat__text">member</div>
-				</div>
+			<div class="social">
+				<ul>
+					<li><a href="https://www.instagram.com/develkz/"><span></span></a></li>
+					<li><a href="mailto:devel.kz@gmail.com"><span></span></a></li>
+				</ul>
 			</div>
 		</div>
-	</div> <!-- stats -->
+	</footer>
+</div>
+
+ </div>
+
+
+ </div>
 </body>
 </html>
+
+<!-----<div id="contacts">
+	<footer>
+		<div class="Background"></div>
+		<div class="container1">
+			<div class="foot">
+				<img src="img/logo.png">
+				<div>© Cooking Site 2022</div>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a href="https://www.instagram.com/develkz/"><span></span></a></li>
+					<li><a href="mailto:devel.kz@gmail.com"><span></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div> 
+!>
