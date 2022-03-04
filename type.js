@@ -1,6 +1,6 @@
 const typedTextSpan = document.querySelector(".typed-text");
 
-const textArray = ["Cooking Recipes", "Japanese cuisine", "Indian cuisine", "Korean cuisine"];
+const textArray = ["Cooking Recipes", "Asian Cuisines:", "Japanese Cuisine", "Korean Cuisine"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1000;
